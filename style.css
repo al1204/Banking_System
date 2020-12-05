@@ -1,0 +1,160 @@
+body{
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+  
+}
+*{
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+/* INDEX.PHP */
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 500px;
+  height: auto;  
+  border:none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background:white;
+  box-shadow: 2px 3px 5px 2px rgba(37, 37, 37,0.5);
+}
+
+.input-submit{
+  margin: 20px;
+  padding:20px 25px;
+  border: none;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: #002e7e;
+  color:white;
+  cursor: pointer;
+}
+
+.form{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-item{
+
+  display: flex;
+  padding: 1rem;
+}
+
+/* details.PHP */
+table, th, td {
+  border: 1px solid black;
+  width:70%;
+  padding:8px;
+  text-align: center;
+}
+
+.transfer{
+  background-color: #002e7e;
+  color: white;
+  padding:8px 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.transfer:hover{
+  text-decoration: none;
+  color: white;
+}
+/* transfer.php */
+.panel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left:300px;
+    width: 500px;
+    height:auto;  
+    border:none;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background:white;
+    box-shadow: 2px 3px 5px 2px rgba(37, 37, 37,0.5);
+  }
+
+.panel-heading{
+  background-color: #002e7e;
+  width:500px;
+  color:white;
+}
+.input{
+  padding:8px;
+  border: 1px grey solid;
+  border-radius: 4px;
+  outline: none;
+}
+
+.tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: auto;
+  height: auto;  
+  border:none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background:white;
+  box-shadow: 2px 3px 5px 2px rgba(37, 37, 37,0.5);
+  padding-bottom:5px;
+}
+
+.back{
+  background-color: rgb(173, 13, 13);
+  color: white;
+  padding:8px 15px;
+  border:none;
+  outline:none;
+  border-radius:5px;
+}
+.back:hover{
+  text-decoration: none;
+  color: white;
+}
+
+/* history.php */
+table, th, td{
+  border: 1px solid black;
+  width:65%;
+  /* padding:8px; */
+  text-align: center;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 750px;
+  height: auto;  
+  border:none;
+  border-radius: 10px;
+  box-sizing: border-box;
+  background:white;
+  box-shadow: 2px 3px 5px 2px rgba(37, 37, 37,0.5);
+  padding-bottom:5px;
+}
+
+.form1{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
